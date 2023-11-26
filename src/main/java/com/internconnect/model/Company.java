@@ -22,15 +22,17 @@ public class Company {
     @Column(name = "name")
     private String name;
     @Column(name = "business_registration_no")
-    private String businessRegNo;
-    @Column(name = "address")
-    private String address;
-    @Column(name = "email")
-    private String email;
-    @Column(name = "cantact_num")
-    private String contactNo;
-
-    private String status;
+    private String business_registration_no;
+    @Column(name = "com_address")
+    private String com_address;
+    @Column(name = "com_email")
+    private String com_email;
+    @Column(name = "com_phone")
+    private String com_phone;
+    @Column(name = "username")
+    private String username;
+    @Column(name = "password")
+    private String password;
 
     //@OneToMany(cascade = CascadeType.ALL)
     //@JoinColumn(name = "university_id", referencedColumnName = "id")

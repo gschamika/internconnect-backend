@@ -12,7 +12,7 @@ public interface CompanyService {
 
     void deleteCompany (Integer id);
 
-    Company updateCompany (Company university);
+    Company updateCompany (Company company);
 
     List<Company> getCompanyByName(String name);
 }

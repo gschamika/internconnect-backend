@@ -19,17 +19,22 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    @Column(name = "student_id")
-    private String studentId;
-    @Column(name = "student_name")
-    private String studentName;
-    @Column(name = "student_email")
-    private String studentEmail;
-    @Column(name = "phone_no")
-    private String phoneNo;
+    @Column(name = "std_id")
+    private String std_id;
+    @Column(name = "name")
+    private String name;
+    @Column(name = "std_email")
+    private String std_email;
+    @Column(name = "std_phone")
+    private String std_phone;
+    @Column(name = "university")
+    private String university;
     @Column(name = "focus_area")
-    private String focusArea;
-    private String status;
+    private String focus_area;
+    @Column(name = "username")
+    private String username;
+    @Column(name = "password")
+    private String password;
 
     //@Lob
     //private byte[] cv;

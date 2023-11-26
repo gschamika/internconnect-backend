@@ -42,6 +42,11 @@ public class StudentServiceImplement implements StudentService{
 
     @Override
     public List<Student> getStudentsByName(String studentName) {
-        return studentRepository.findByStudentName(studentName);
+        return null;
     }
+
+    //@Override
+    //public List<Student> getStudentsByName(String name) {
+        //return studentRepository.findByStudentName(name);
+    //}
 }
