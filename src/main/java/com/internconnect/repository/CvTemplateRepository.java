@@ -1,6 +1,5 @@
 package com.internconnect.repository;
 import com.internconnect.model.CvTemplate;
-import com.internconnect.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
