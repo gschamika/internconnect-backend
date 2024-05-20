@@ -34,6 +34,9 @@ public class Company {
     @Column(name = "password")
     private String password;
 
+    public void setId(Integer id) {
+    }
+
     //@OneToMany(cascade = CascadeType.ALL)
     //@JoinColumn(name = "university_id", referencedColumnName = "id")
     //List< Student > students = new ArrayList< >();

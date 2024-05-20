@@ -24,4 +24,6 @@ public class CvTemplate {
     @Column(name = "template")
     private String template;
 
+    public void setId(Integer id) {
+    }
 }

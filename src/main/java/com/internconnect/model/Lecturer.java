@@ -31,4 +31,7 @@ public class Lecturer {
     private String username;
     @Column(name = "password")
     private String password;
+
+    public void setId(Integer id) {
+    }
 }

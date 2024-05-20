@@ -36,6 +36,9 @@ public class Student {
     @Column(name = "password")
     private String password;
 
+    public void setId(Integer id) {
+    }
+
     //@Lob
     //private byte[] cv;
 
